@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+scikit-image
+pyproj
+jupyter
+earthengine-api  # notebook 1 only

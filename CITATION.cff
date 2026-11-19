@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this report, data or code, please cite it as below."
+title: "Geomorphic Evolution of the Lower Semliki River, Uganda: Bed and Bank Change, 2000–2026 (SFFS Technical Report SEM.9.7)"
+version: "1.1"
+date-released: 2026-10-04
+license: CC-BY-4.0
+type: dataset
+authors:
+  - family-names: "Kakooza"
+    given-names: "Charles"
+    affiliation: "Ministry of Water and Environment, Uganda"
+  - family-names: "Nafula"
+    given-names: "Monica"
+  - family-names: "Kasibante"
+    given-names: "Geoffry"
+  - family-names: "Waiswa"
+    given-names: "Faizal"
+  - family-names: "Zaake"
+    given-names: "Benon"
+    affiliation: "Ministry of Water and Environment, Uganda"
+keywords:
+  - "Semliki River"
+  - "Uganda"
+  - "Ntoroko"
+  - "river meander migration"
+  - "bank erosion"
+  - "geomorphology"
+  - "Landsat"
+  - "Sentinel-2"
+  - "Google Earth Engine"
+  - "flood forecasting"
+  - "HEC-RAS"
+  - "Lake Albert"
