@@ -1,8 +1,8 @@
 This repository has two licences.
 
-1. The technical report (PDF), the data in the zip archive, the README and the figures in the notebooks are licensed under the
-   Creative Commons Attribution 4.0 International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
-   Copyright (c) 2026 Ministry of Water and Environment, Uganda, and the authors.
+1. The manuscript (PDF), the data, the README and the figures produced by the notebook are licensed under the Creative Commons
+   Attribution 4.0 International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+   Copyright (c) 2026 Monica Nafula, Charles Kakooza.
 
 2. The code (*.py) and the code cells of the notebooks (*.ipynb) are licensed under the MIT licence:
 

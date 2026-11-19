@@ -1,7 +1,7 @@
 """semliki_bankmig.py -- bank retreat and centreline migration rates from annual channel-water masks.
 
-Part of the reproducibility package of SFFS technical report SEM.9.7, "Geomorphic Evolution of the Lower
-Semliki: Bed and Bank Change, 2000-2026" (Ministry of Water and Environment, Uganda, 2026).
+Part of the reproducibility package of Nafula, M. and Kakooza, C. (2026), "Meander migration, cut-off risk and
+bed stability on the lower Semliki River, Albertine Rift", preprint, https://doi.org/10.5281/zenodo.24367442.
 
 Method (DSAS-style transects on a fixed baseline, applied to a river):
   1  each year's water mask is reduced to the CHANNEL: the connected water body that touches the baseline
@@ -21,7 +21,7 @@ Method (DSAS-style transects on a fixed baseline, applied to a river):
      bank-stability allowance (bank height / tan(stable angle)).
 
 Positional uncertainty of a bank in one year: e = sqrt((pixel/2)^2 + registration^2).
-Licence: MIT (see LICENSE-CODE).
+Licence: MIT (see LICENSE).
 """
 import argparse, glob, json, math, os, re, sys
 import numpy as np

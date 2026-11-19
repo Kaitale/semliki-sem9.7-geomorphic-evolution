@@ -1,36 +1,30 @@
 {
-  "title": "Geomorphic Evolution of the Lower Semliki River, Uganda: Bed and Bank Change, 2000–2026 (SFFS Technical Report SEM.9.7)",
+  "title": "Meander migration, cut-off risk and bed stability on the lower Semliki River, Albertine Rift: 26 years of Landsat and Sentinel-2 and a 75-year gauging record",
   "upload_type": "publication",
-  "publication_type": "report",
-  "version": "1.1",
-  "publication_date": "2026-10-04",
+  "publication_type": "preprint",
+  "version": "2.0",
+  "license": "cc-by-4.0",
   "creators": [
     {
       "name": "Nafula, Monica",
-      "affiliation": "KAI Water & Energy"
+      "affiliation": "KAI Water & Energy, Kampala, Uganda"
     },
     {
       "name": "Kakooza, Charles",
-      "affiliation": "Ministry of Water and Environment, Uganda"
+      "affiliation": "Ministry of Water and Environment, Kampala, Uganda"
     }
   ],
-  "description": "<p>The lower Semliki — the 92 km of river between the Bweramule gauge and Lake Albert, and the 10 km above the gauge — is the reach that floods Ntoroko District, western Uganda. This technical report of the Semliki Flood Forecasting System (SFFS) measures how its banks and bed have changed since 2000, using 27 annual low-flow water masks from Landsat (2000–2026, 30 m) and 11 from Sentinel-2 (2016–2026, 10 m), 4,090 transects spaced 25 m apart, 139 bends, the 191 discharge gaugings made at Bweramule between 1950 and 2025, and water levels from 12 satellite-altimetry virtual stations. It maps erosion and deposition, gives retreat rates and 50-year setbacks for every bend, identifies the meander necks closest to cutting off, tests whether the bed has aggraded, and says what each finding means for the HEC-RAS model that forecasts the river level and for planning in the delta.</p>\n<p><strong>Key findings.</strong> The river is an active meander belt in its first 40 km below the gauge and nearly stable in its last 30 km: between 2000–04 and 2020–26, 265 ha of land became channel and 299 ha of channel became land. Outer banks retreat at 4.5–5.0 m a year at the typical bend in the first 40 km, about 1.5 m a year between km 40 and 60 and about 1 m a year beyond km 60; the fastest bends move 11–13 m a year. A 97 m neck at km 14.2 is the next cut-off, within roughly 3–10 years if present rates hold. The bed at the gauge shows no net aggradation in 70 years, though the control has drifted. Rising low water in the lower reach reflects the rise of Lake Albert, not sediment. A 50-year setback of about 205 m keeps half of the bends clear and about 580 m keeps nine in ten clear.</p>\n<p><strong>Contents.</strong> The report (PDF); the annual Landsat and Sentinel-2 channel-water masks and the transect, bend and neck results (zip); a Python module and four Jupyter notebooks that rebuild the masks in Google Earth Engine, re-run the transect analysis, the planform-change maps and the width series, and document the specific-gauge and altimetry methods. The discharge gaugings, gauge levels and hydraulic model of the Ministry of Water and Environment are not included; they are available from the Ministry on request. Contains modified Copernicus Sentinel data (2016–2026); Landsat imagery courtesy of the U.S. Geological Survey.</p>",
-  "license": "cc-by-4.0",
-  "access_right": "open",
-  "language": "eng",
   "keywords": [
-    "Semliki River",
-    "Uganda",
-    "Ntoroko",
-    "river meander migration",
-    "bank erosion",
-    "geomorphology",
+    "Meander migration",
+    "Bank erosion",
     "Landsat",
     "Sentinel-2",
-    "Google Earth Engine",
-    "flood forecasting",
-    "HEC-RAS",
-    "Lake Albert"
+    "Specific gauge",
+    "Satellite altimetry",
+    "Semliki River",
+    "Lake Albert",
+    "Uganda",
+    "Flood forecasting"
   ],
-  "notes": "Code and notebooks: MIT licence. Report and data: CC BY 4.0. Discharge gaugings, gauge levels and the hydraulic model of the Ministry of Water and Environment, Uganda, are not included; they are available from the Ministry on request."
+  "description": "<p><strong>Study region:</strong> The lower Semliki River on the floor of the Albertine Rift, from 10 km above the Bweramule gauge (Uganda–Democratic Republic of Congo border) to Lake Albert, about 102 km of a 9,917 km² basin draining Lake Edward and the Rwenzori Mountains. The reach floods Ntoroko District, Uganda, from the river and from Lake Albert backwater.</p><p><strong>Study focus:</strong> Flood models of the reach treat the channel as fixed. We measure how it has moved since 2000 and whether its bed has changed, using 27 annual Landsat and 11 Sentinel-2 low-flow water masks (MNDWI with an Otsu threshold), linear-regression bank rates with 95 % confidence intervals on 4,090 transects at 25 m spacing, bend-scale statistics and 50-year setbacks for 125 bends, a search for meander necks, a specific-gauge analysis of 191 discharge gaugings (1950–2025) and low-water trends at satellite-altimetry virtual stations.</p><p><strong>New hydrological insights for the region:</strong> Between 2000–04 and 2020–26, 265 ha of floodplain became channel and 216 ha of channel became land in the river reach; two-fifths of today’s low-flow channel lies on land that was dry 20 years earlier. Outer banks of the typical bend retreat at 4.5–5.0 m/yr in the meander belt, 1.5 m/yr between km 40 and 60 and about 1 m/yr in the lake-controlled reach; seven bends exceed 10 m/yr. Scaled by width (0.056 widths/yr), migration is three to five times faster than reported for vegetated rivers worldwide. A 97 m neck at km 14.2 is closing at about 24 m/yr and is likely to cut off within 3–10 years. Stage for a given flow at the gauge has no net trend since 1950, although the control rose about 0.35 m in 1955–1975 and fell back; rising low water in the lower reach tracks the 2.0 m rise of Lake Albert, not sediment. Median 50-year setbacks are 205 m, rising to 578 m for nine bends in ten.</p><p><strong>Contents.</strong> The preprint (PDF), prepared to the author guidelines of <em>Journal of Hydrology: Regional Studies</em>; one notebook, <code>reproduce_paper.ipynb</code>, that reproduces the paper's results (also runs in Google Colab); semliki_bankmig.py – the transect, bank-rate, bend and neck analysis (imported by the notebook); data_masks_and_results.zip – 27 Landsat and 11 Sentinel-2 annual low-flow water masks (.npz) and the per-transect, bend and neck results of the three records (.csv); extras/build_water_masks_gee.ipynb – optional: rebuilds the annual masks in Google Earth Engine (needs a GEE account).</p><p>The Bweramule discharge gaugings and the HEC-RAS model are held by the Ministry of Water and Environment, Uganda, and are available on request. Landsat imagery courtesy of the U.S. Geological Survey; contains modified Copernicus Sentinel data (2016–2026); altimetry from Hydroweb (CNES/Theia) and DAHITI (DGFI-TUM).</p>"
 }

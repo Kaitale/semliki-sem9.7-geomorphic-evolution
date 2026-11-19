@@ -1,7 +1,7 @@
 numpy
 scipy
 matplotlib
-scikit-image
-pyproj
 jupyter
-earthengine-api  # notebook 1 only
+# extras/build_water_masks_gee.ipynb only:
+# earthengine-api
+# pyproj
