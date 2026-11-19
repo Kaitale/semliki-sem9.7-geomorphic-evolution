@@ -1,5 +1,7 @@
 # Geomorphic Evolution of the Lower Semliki: Bed and Bank Change, 2000–2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24367443.svg)](https://doi.org/10.5281/zenodo.24367443)
+
 **SFFS Technical Report SEM.9.7, version 1.1 (4 October 2026)** — Semliki Flood Forecasting System, Ministry of Water and Environment, Uganda.
 
 The lower Semliki — the 92 km of river between the Bweramule gauge and Lake Albert — is the reach that floods Ntoroko District. This report measures how its banks and bed have changed since 2000 from 27 annual Landsat and 11 Sentinel-2 low-flow water masks, 4,090 transects, 139 bends, the Bweramule gaugings (1950–2025) and satellite altimetry, and says what the findings mean for the flood forecast and for planning.
@@ -24,7 +26,7 @@ Run with Python 3.10+ and `pip install -r requirements.txt`; open the notebooks 
 
 ## Authors
 
-Charles Kakooza, Monica Nafula, Geoffry Kasibante, Faizal Waiswa and Benon Zaake.
+Monica Nafula and Charles Kakooza.
 
 Prepared under the Semliki Flood Forecasting System (SFFS) of the Ministry of Water and Environment (MWE), Uganda, with support from the World Food Programme (WFP).
 
@@ -34,4 +36,4 @@ Report and data: CC BY 4.0. Code and notebooks: MIT. See `LICENSE`.
 
 ## How to cite
 
-See `CITATION.cff`, or the DOI of the Zenodo record of this repository.
+Zenodo record: https://doi.org/10.5281/zenodo.24367443 (report, data and notebooks). See also `CITATION.cff`.
